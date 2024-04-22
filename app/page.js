@@ -6,7 +6,7 @@ export default function Home() {
     <div className="poppins w-10/12 poppins fixed right-0 bg-gray-950 flex p-8 h-screen flex-col items-center justify-center gap-12 ">
       <h1 className="w-full text-center text-2xl font-semibold text-white">
         Welcome to <span className="text-lime-300">The Software Academy </span>
-        Teacher's Management Platform
+        Teachers Management Platform
       </h1>
       <form className="bg-white/10 flex flex-col gap-8 p-8 rounded-md w-5/12 mx-auto">
         <p className="text-center text-lg font-semibold text-white/80">
