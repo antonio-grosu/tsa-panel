@@ -39,7 +39,7 @@ const Overview = () => {
           <p className="text-lg block text-green-500 font-semibold">
             No. #678
           </p>{" "}
-          <p className="text-sm">In Teacher's Ranking</p>
+          <p className="text-sm">In Teachers Ranking</p>
         </div>
         <div className="bg-white shadow-md text-center p-8  rounded-md  ">
           {" "}
