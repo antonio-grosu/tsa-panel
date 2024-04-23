@@ -8,7 +8,7 @@ const Courses = () => {
       {/* COURSES GRID */}
       <div className=" grid grid-cols-5 gap-8 w-full justify-between">
         {/* course object */}
-        <div className="bg-gray-800 rounded-sm p-4 flex flex-col gap-4 ">
+        <div className="slide-left bg-gray-800 rounded-sm p-4 flex flex-col gap-4 ">
           {/* image to be put */}
           <div className="h-32 bg-white rounded-md flex items-center justify-center">
             **
@@ -19,7 +19,7 @@ const Courses = () => {
           <div className="pt-1 border-t-2 border-white/10 mb-2"></div>
           <p className="text-sm text-white">3456 enrolled</p>
         </div>
-        <div className="bg-gray-800 rounded-sm p-4 flex flex-col gap-4">
+        <div className="slide-left bg-gray-800 rounded-sm p-4 flex flex-col gap-4">
           {/* image to be put */}
           <div className="h-32 bg-white rounded-md flex items-center justify-center">
             **
@@ -30,7 +30,7 @@ const Courses = () => {
           <div className="pt-1 border-t-2 border-white/10 mb-2"></div>
           <p className="text-sm text-white">234 enrolled</p>
         </div>
-        <div className="bg-gray-800 rounded-sm p-4 flex flex-col gap-4 ">
+        <div className="slide-left bg-gray-800 rounded-sm p-4 flex flex-col gap-4 ">
           {/* image to be put */}
           <div className="h-32 bg-white rounded-md flex items-center justify-center">
             **
@@ -43,7 +43,7 @@ const Courses = () => {
         </div>
       </div>
       {/* CREATE GRID */}
-      <div className="w-full bg-white shadow-md p-8">
+      <div className=" w-full slide-in bg-white shadow-md p-8">
         <p className="text-xl w-full text-center font-semibold">
           Creation Centre
         </p>

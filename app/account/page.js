@@ -5,7 +5,7 @@ const Account = () => {
       <h1 className="text-2xl text-gray-950 poppins font-semibold">Account</h1>
       {/* information grid  */}
       <div className="grid grid-cols-2 mt-24 gap-8">
-        <div className="bg-white shadow-md p-8 rounded-md">
+        <div className="slide-left bg-white shadow-md p-8 rounded-md">
           <p className="text-xl text-center font-semibold">
             General Information
           </p>
@@ -32,7 +32,7 @@ const Account = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white shadow-md rounded-md p-8">
+        <div className="slide-right  bg-white shadow-md rounded-md p-8">
           <p className="text-xl text-center font-semibold">
             Billing Information
           </p>
@@ -55,7 +55,7 @@ const Account = () => {
         </div>
       </div>
       {/* account centre */}
-      <div className="w-full rounded-md p-8 bg-white shadow-md mt-12">
+      <div className="w-full slide-in rounded-md p-8 bg-white shadow-md mt-12">
         <p className="text-xl text-center font-semibold"> Centre</p>
         <div className="mt-8 grid grid-cols-3 w-5/12 mx-auto gap-8">
           <Link
